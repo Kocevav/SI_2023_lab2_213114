@@ -1,4 +1,5 @@
 # SI_2023_lab2_213114
+
  Тест примерите од класата SILab2Test:
  
  testFunctionWithNullUser(): Овој тест случај проверува функцијата function кога проследуваме null за објектот user и null за листата allUsers. Очекуваме да се фрли исклучок од тип RuntimeException со порака "Mandatory information missing!".
@@ -40,3 +41,7 @@ testFunctionWithInvalidPassword(): Овој тест случај проверу
 
 Тест случај со условот user.getPassword() null и user.getEmail() null (True, False, False):
  Овој тест случај го тестира кодот кога првиот и вториот услов во if-наредбата се исполнети (user не е null и password е null), додека третиот услов (email) не е исполнет. Во овој случај, кодот треба да фрли исклучок RuntimeException поради недостиг на задолжителни информации.
+ 
+ 
+ ![SI_Lab Veronika 213114](https://github.com/Kocevav/SI_2023_lab2_213114/assets/100540007/5e59bab8-c0b3-44f2-9410-6ba5a64e5aa0)
+ Цикломатксата комплексност според графот изнесува 11 бидејки има ии независни региони.
